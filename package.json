@@ -1,0 +1,14 @@
+{
+  "name": "webhook-tester",
+  "version": "1.0.0",
+  "description": "Test, debug and analyze webhooks with ease",
+  "main": "api/process.js",
+  "scripts": {
+    "dev": "node dev-server.js",
+    "vercel-build": "echo 'Build complete'"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
