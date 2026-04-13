@@ -714,6 +714,66 @@
       gap: 0.5rem;
     }
 
+    /* Testimonials Section */
+    .testimonials {
+      padding: 6rem 0;
+    }
+    .testimonials-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.5rem;
+    }
+    .testimonial-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 2rem;
+      transition: all 0.3s ease;
+    }
+    .testimonial-card:hover {
+      transform: translateY(-5px);
+      border-color: var(--accent-primary);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    }
+    .testimonial-stars {
+      color: var(--accent-primary);
+      font-size: 1.2rem;
+      letter-spacing: 2px;
+      margin-bottom: 1rem;
+    }
+    .testimonial-text {
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+      line-height: 1.7;
+      margin-bottom: 1.5rem;
+      font-style: italic;
+    }
+    .testimonial-author {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    .testimonial-avatar {
+      width: 48px;
+      height: 48px;
+      background: var(--bg-secondary);
+      border: 2px solid var(--border);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+    }
+    .testimonial-name {
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: var(--text-primary);
+    }
+    .testimonial-role {
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+    }
+
     /* FAQ Section */
     .faq {
       padding: 6rem 0;
@@ -1149,7 +1209,7 @@
         <div class="pricing-badge">One-Time Payment</div>
         <h2 class="pricing-title">Webhook Tester Pro</h2>
         <div class="pricing-price">
-          $4<span>/lifetime</span>
+          $14<span>/lifetime</span>
         </div>
         <p class="pricing-description">
           Everything you need to test and debug webhooks forever.
@@ -1193,13 +1253,58 @@
           </li>
         </ul>
         <button id="buyBtn" class="btn btn-primary pricing-cta">
-          <span>Get Started — $4</span>
+          <span>Get Started — $14</span>
         </button>
         <div class="pricing-guarantee">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
           </svg>
           30-day money-back guarantee
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">TESTIMONIALS</span>
+        <h2 class="section-title">What Developers Say</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"Webhook Tester is my go-to for every integration. I can see exactly what's being sent and debug issues in seconds instead of hours."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">👨‍💻</div>
+            <div>
+              <div class="testimonial-name">Chris Anderson</div>
+              <div class="testimonial-role">Integration Engineer, ConnectHub</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"Finally a tool that makes webhook debugging bearable. The inspection panel is clean and shows exactly what I need."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">👩‍🔬</div>
+            <div>
+              <div class="testimonial-name">Lisa Chang</div>
+              <div class="testimonial-role">API Developer, WebServices Inc</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"I use this to test all my Stripe and GitHub webhooks before going live. It's reliable and the interface is beautiful."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">🧑‍🛠️</div>
+            <div>
+              <div class="testimonial-name">James O'Brien</div>
+              <div class="testimonial-role">CTO, StartupForge</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

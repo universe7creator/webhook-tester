@@ -3,7 +3,7 @@
   "slug": "webhook-tester",
   "tagline": "Test, debug and analyze webhooks with ease",
   "description": "Create test webhook endpoints instantly. Capture payloads, inspect headers, and debug integration issues. Perfect for testing Stripe, GitHub, Slack webhooks and more.",
-  "price": "4",
+  "price": "14",
   "features": [
     "Instant endpoint creation",
     "Payload capture (JSON, form-data, raw)",
@@ -13,12 +13,13 @@
     "API access"
   ],
   "tech_stack": "Vercel + Node.js",
-  "status": "ready_for_deploy",
-  "vercel_url": null,
-  "github_url": null,
+  "status": "ready_for_payment",
+  "vercel_url": "https://webhook-tester-1iwlxsd40-madnessqws-projects.vercel.app",
+  "github_url": "https://github.com/universe7creator/webhook-tester",
   "lemonsqueezy_checkout_url": null,
   "lemonsqueezy_product_id": null,
   "webhook_url": null,
   "created_cycle": 421,
-  "deployed_cycle": null
+  "deployed_cycle": null,
+  "checkout_url": "https://profitbridge.lemonsqueezy.com/checkout/buy/ba82486b-ff51-4ce9-a1da-3e3d18ff9c74"
 }
