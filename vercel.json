@@ -1,7 +1,6 @@
 {
   "version": 2,
   "public": true,
-  "passwordProtection": false,
   "rewrites": [
     {
       "source": "/api/(.*)",
